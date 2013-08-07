@@ -1,0 +1,41 @@
+﻿Build started 2013-08-07 오후 3:18:33.
+     1>Project "D:\git_project\Gesture\Gesture\Gesture.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "D:\git_project\Gesture\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\Gesture.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\Gesture.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Gesture.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Gesture.cpp GestureDlg.cpp
+         GestureDlg.cpp
+         Gesture.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /IDebug\ /nologo /fo"Debug\Gesture.res" Gesture.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Gesture.exe.embed.manifest.res" Debug\Gesture_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\git_project\Gesture\Debug\Gesture.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\Gesture.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\git_project\Gesture\Debug\Gesture.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\git_project\Gesture\Debug\Gesture.lib" /MACHINE:X86 Debug\Gesture.res
+         Debug\Gesture.exe.embed.manifest.res
+         Debug\Gesture.obj
+         Debug\GestureDlg.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Gesture.exe.embed.manifest" /manifest Debug\Gesture.exe.intermediate.manifest "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Gesture.exe.embed.manifest.res" Debug\Gesture_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\git_project\Gesture\Debug\Gesture.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\Gesture.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\git_project\Gesture\Debug\Gesture.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\git_project\Gesture\Debug\Gesture.lib" /MACHINE:X86 Debug\Gesture.res
+         Debug\Gesture.exe.embed.manifest.res
+         Debug\Gesture.obj
+         Debug\GestureDlg.obj
+         Debug\stdafx.obj
+         Gesture.vcxproj -> D:\git_project\Gesture\Debug\Gesture.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Gesture.unsuccessfulbuild".
+         Touching "Debug\Gesture.lastbuildstate".
+     1>Done Building Project "D:\git_project\Gesture\Gesture\Gesture.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.76
